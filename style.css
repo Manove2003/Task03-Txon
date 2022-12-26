@@ -1,0 +1,58 @@
+html,body{
+    width: 50%;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+body{
+    width: 100%;
+    background-image: linear-gradient( to left top, rgb(51, 126, 176),rgb(210, 194, 53));
+    background-repeat: no-repeat;
+    height: 96vh;
+}    
+h1{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(145, 38, 38),rgb(187, 144, 65),rgb(65, 65, 23),rgb(28, 114, 28),rgb(48, 48, 136),rgb(102, 48, 141),violet);
+    color:#fff;
+    font-weight: bold;
+}
+.container{
+    width: 360px;
+    margin-left: 150px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(218, 82, 82) , rgb(199, 199, 67));
+    background-repeat: no-repeat;
+
+}
+#inputField{
+    width: 280px;
+    height: 45px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    margin-top: 4px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+#addToDo{
+    height: 50px;
+    width: 55px;
+    margin-top: 4px;
+    margin-left: 4px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #fff;
+    background-color:rgb(148, 4, 4);
+}
+.to-dos{
+    margin-top: 15px;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 4px;
+}
+.paragraph-styling{
+    margin: 0;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 30px;
+}
